@@ -1,0 +1,25 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-28 00:04:24
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-28 00:05:47
+*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.center {
+	text-align: center;
+}
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+.clearfix {
+	zoom:1;
+}
